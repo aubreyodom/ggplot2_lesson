@@ -41,12 +41,12 @@ library(ggplot2)
 
 ## Example dataset: Diamonds
 
-![Diamonds](/restricted/projectnb/johnsonlab/aodom/ggplot2_lesson/diamonds_desc.png){width=50%}
+![Diamonds](diamonds_desc.png){width=50%}
 
 ```{R}
 head(diamonds)
 ```
-![Diamond clarity is a measure of the purity and rarity of the stone, graded by the visibility of these characteristics under 10-power magnification. A stone is graded as flawless if, under 10-power magnification, no inclusions (internal flaws) and no blemishes (external imperfections) are visible.](/restricted/projectnb/johnsonlab/aodom/ggplot2_lesson/clarity.png){width=50%}
+![Diamond clarity is a measure of the purity and rarity of the stone, graded by the visibility of these characteristics under 10-power magnification. A stone is graded as flawless if, under 10-power magnification, no inclusions (internal flaws) and no blemishes (external imperfections) are visible.](clarity.png){width=50%}
 
 - The dataset contains information about 53,940 round-cut diamonds
 
@@ -171,6 +171,6 @@ ggplot(data = diamonds, aes(x = price, fill = cut)) +
 - ggplot2 documentation
 - Google
 - Stack overflow
-
+- Hadley Wickham's book https://ggplot2-book.org/
 
 
